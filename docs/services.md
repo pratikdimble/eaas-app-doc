@@ -13,9 +13,3 @@
 
 ---
 
-## Related Pages
-- [Home](index.md)
-- [Controllers](controllers.md)
-- [Utilities](utilities.md)
-
----
