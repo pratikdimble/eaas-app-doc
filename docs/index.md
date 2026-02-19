@@ -1,11 +1,3 @@
-```markdown
----
-layout: default
-title: Home
----
-
-```
-
 # Evaluation Service API Portfolio
 
 ## Overview
