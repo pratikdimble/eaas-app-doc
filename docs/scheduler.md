@@ -1,8 +1,8 @@
 # Scheduler
 
-```
-Scheduler (@Scheduled)<br>
- └── Runs every minute<br>
+```java
+Scheduler (@Scheduled)
+ └── Runs every minute
       └── Calls readMultipleCSVs(true)
 ```
 
