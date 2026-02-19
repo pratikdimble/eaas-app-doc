@@ -1,4 +1,3 @@
-```markdown
 # Service Layer
 
 ## EvaluationService
@@ -18,6 +17,5 @@
 - [Home](index.md)
 - [Controllers](controllers.md)
 - [Utilities](utilities.md)
-```
 
 ---
