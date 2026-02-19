@@ -15,30 +15,30 @@ The **Evaluation Service API** is a Spring Boot application that:
 
 ## Architecture
 
-```
-User / Scheduler<br>
-       │<br>
-       ▼<br>
-Controllers<br>
- ├── EvaluationController<br>
- ├── ExportController<br>
- ├── AuthController<br>
- └── ReportController<br>
-       │<br>
-       ▼<br>
-Service Layer<br>
- ├── EvaluationService<br>
- ├── JwtService<br>
- └── ReportService<br>
-       │<br>
-       ▼<br>
-Utilities<br>
- └── CsvUtils<br>
-       │<br>
-       ▼<br>
-Database<br>
- ├── processed_files<br>
- ├── evaluation_results<br>
+```swift
+User / Scheduler
+       │
+       ▼
+Controllers
+ ├── EvaluationController
+ ├── ExportController
+ ├── AuthController
+ └── ReportController
+       │
+       ▼
+Service Layer
+ ├── EvaluationService
+ ├── JwtService
+ └── ReportService
+       │
+       ▼
+Utilities
+ └── CsvUtils
+       │
+       ▼
+Database
+ ├── processed_files
+ ├── evaluation_results
  └── users
 ```
 
