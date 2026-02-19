@@ -1,29 +1,28 @@
-```markdown 
 # Controllers
-```
+
 ## EvaluationController
-```
- ├── GET /evaluate?isBatch=true<br>
- ├── GET /evaluate/internal?isBatch=true<br>
- ├── GET /evaluate/export-csv?isBatch=true<br>
+```java
+ ├── GET /evaluate?isBatch=true
+ ├── GET /evaluate/internal?isBatch=true
+ ├── GET /evaluate/export-csv?isBatch=true
  └── GET /evaluate/model-detail/{model}?isBatch=true
 ```
 
 ## ExportController
-```
- ├── GET /export/summary?isBatch=true<br>
+```java
+ ├── GET /export/summary?isBatch=true
  └── GET /export/detail/{model}?isBatch=true
 ```
 
 ## AuthController
-```
- ├── POST /auth/register<br>
+```java
+ ├── POST /auth/register
  └── POST /auth/login
 ```
 
 ## ReportController
-```
- ├── GET /report/summary?isBatch=true<br>
- ├── GET /report/detail/{model}?isBatch=true<br>
+```java
+ ├── GET /report/summary?isBatch=true
+ ├── GET /report/detail/{model}?isBatch=true
  └── GET /report/all?isBatch=true
 ```
