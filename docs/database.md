@@ -13,7 +13,3 @@
 
 ---
 
-## Related Pages
-- [Home](index.md)
-- [Utilities](utilities.md)
-- [Scheduler](scheduler.md)
