@@ -16,29 +16,29 @@ The **Evaluation Service API** is a Spring Boot application that:
 ## Architecture
 
 ```
-User / Scheduler
-       │
-       ▼
-Controllers
- ├── EvaluationController
- ├── ExportController
- ├── AuthController
- └── ReportController
-       │
-       ▼
-Service Layer
- ├── EvaluationService
- ├── JwtService
- └── ReportService
-       │
-       ▼
-Utilities
- └── CsvUtils
-       │
-       ▼
-Database
- ├── processed_files
- ├── evaluation_results
+User / Scheduler<br>
+       │<br>
+       ▼<br>
+Controllers<br>
+ ├── EvaluationController<br>
+ ├── ExportController<br>
+ ├── AuthController<br>
+ └── ReportController<br>
+       │<br>
+       ▼<br>
+Service Layer<br>
+ ├── EvaluationService<br>
+ ├── JwtService<br>
+ └── ReportService<br>
+       │<br>
+       ▼<br>
+Utilities<br>
+ └── CsvUtils<br>
+       │<br>
+       ▼<br>
+Database<br>
+ ├── processed_files<br>
+ ├── evaluation_results<br>
  └── users
 ```
 
@@ -78,42 +78,6 @@ mvn spring-boot:run
 http://localhost:8080/swagger-ui/index.html
 ```
 ```
-
----
-
-## `/docs/controllers.md`
-
-```markdown
-# Controllers
-
-## EvaluationController
-```
- ├── GET /evaluate?isBatch=true
- ├── GET /evaluate/internal?isBatch=true
- ├── GET /evaluate/export-csv?isBatch=true
- └── GET /evaluate/model-detail/{model}?isBatch=true
-```
-
-## ExportController
-```
- ├── GET /export/summary?isBatch=true
- └── GET /export/detail/{model}?isBatch=true
-```
-
-## AuthController
-```
- ├── POST /auth/register
- └── POST /auth/login
-```
-
-## ReportController
-```
- ├── GET /report/summary?isBatch=true
- ├── GET /report/detail/{model}?isBatch=true
- └── GET /report/all?isBatch=true
-```
-
----
 
 ## Related Pages
 - [Home](index.md)
