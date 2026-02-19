@@ -1,0 +1,21 @@
+title: Evaluation Service API
+description: Portfolio and documentation site for the Evaluation Service API
+theme: jekyll-theme-cayman
+
+# Enable relative links between pages
+markdown: kramdown
+
+# Navigation links (will appear in the site header or sidebar depending on theme)
+navbar:
+  - name: Home
+    link: index.md
+  - name: Controllers
+    link: controllers.md
+  - name: Service Layer
+    link: services.md
+  - name: Utilities
+    link: utilities.md
+  - name: Database
+    link: database.md
+  - name: Scheduler
+    link: scheduler.md
