@@ -1,3 +1,7 @@
+---
+layout: default
+title: Controllers
+---
 # Controllers
 
 ## EvaluationController
