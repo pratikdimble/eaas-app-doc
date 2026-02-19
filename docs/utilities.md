@@ -12,7 +12,3 @@
 
 ---
 
-## Related Pages
-- [Home](index.md)
-- [Service Layer](services.md)
-- [Database Entities](database.md)
