@@ -13,7 +13,4 @@ Scheduler (@Scheduled)
 
 ---
 
-## Related Pages
-- [Home](index.md)
-- [Database Entities](database.md)
 
