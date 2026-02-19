@@ -1,4 +1,3 @@
-```markdown
 # Scheduler
 
 ```
@@ -17,6 +16,4 @@ Scheduler (@Scheduled)<br>
 ## Related Pages
 - [Home](index.md)
 - [Database Entities](database.md)
-```
 
----
