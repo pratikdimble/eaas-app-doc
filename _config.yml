@@ -1,12 +1,6 @@
 title: Evaluation Service API
 description: Portfolio and documentation site for the Evaluation Service API
-
-# GitHub Pages theme
 theme: jekyll-theme-cayman
-
-# Required for project sites
 baseurl: "/eaas-app-doc"
 url: "https://pratikdimble.github.io"
-
-# Markdown engine
 markdown: kramdown
